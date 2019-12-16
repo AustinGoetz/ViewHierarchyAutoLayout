@@ -15,10 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aeb-71-8vq" userLabel="IndigoView">
-                                <rect key="frame" x="123.5" y="373" width="167" height="150"/>
-                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AQc-00-AGC" userLabel="PurpleView">
                                 <rect key="frame" x="40" y="84" width="334" height="150"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -26,15 +22,19 @@
                                     <constraint firstAttribute="height" constant="150" id="nw5-cq-CRO"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aeb-71-8vq" userLabel="IndigoView">
+                                <rect key="frame" x="123.5" y="284" width="167" height="75"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Aeb-71-8vq" firstAttribute="centerX" secondItem="LBj-Es-SZx" secondAttribute="centerX" id="3WE-av-iVZ"/>
-                            <constraint firstItem="Aeb-71-8vq" firstAttribute="width" secondItem="AQc-00-AGC" secondAttribute="width" multiplier="0.5" id="5Nn-sv-AQM"/>
-                            <constraint firstItem="Aeb-71-8vq" firstAttribute="centerY" secondItem="LBj-Es-SZx" secondAttribute="centerY" id="GfV-cZ-q0o"/>
                             <constraint firstItem="CBW-vt-dP7" firstAttribute="trailing" secondItem="AQc-00-AGC" secondAttribute="trailing" constant="40" id="JtP-ID-IyC"/>
+                            <constraint firstItem="Aeb-71-8vq" firstAttribute="centerX" secondItem="AQc-00-AGC" secondAttribute="centerX" id="U9k-hY-sej"/>
+                            <constraint firstItem="Aeb-71-8vq" firstAttribute="height" secondItem="AQc-00-AGC" secondAttribute="height" multiplier="0.5" id="bzu-zi-15R"/>
                             <constraint firstItem="AQc-00-AGC" firstAttribute="leading" secondItem="CBW-vt-dP7" secondAttribute="leading" constant="40" id="dp1-TH-zXP"/>
-                            <constraint firstItem="Aeb-71-8vq" firstAttribute="height" secondItem="AQc-00-AGC" secondAttribute="height" id="jyj-bC-csP"/>
+                            <constraint firstItem="Aeb-71-8vq" firstAttribute="width" secondItem="AQc-00-AGC" secondAttribute="width" multiplier="0.5" id="nxB-Jf-EhS"/>
+                            <constraint firstItem="Aeb-71-8vq" firstAttribute="top" secondItem="AQc-00-AGC" secondAttribute="bottom" constant="50" id="pmn-wY-LU7"/>
                             <constraint firstItem="AQc-00-AGC" firstAttribute="top" secondItem="CBW-vt-dP7" secondAttribute="top" constant="40" id="qVg-6Z-hC3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="CBW-vt-dP7"/>
