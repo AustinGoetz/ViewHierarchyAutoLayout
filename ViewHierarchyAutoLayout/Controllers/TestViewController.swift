@@ -13,6 +13,7 @@ class TestViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+/*
         // Adding views programatically
             // X is how far down from the top corner we want to go
             // Y is how far right from the top corner we want to go
@@ -29,5 +30,6 @@ class TestViewController: UIViewController {
         
         // Add the created blueView as a subview of the redView
         redView.addSubview(blueView)
+ */
     }
 }
